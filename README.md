@@ -8,8 +8,7 @@ On YouTube, pressing 0-9 will jump you to a percentage of the timeline (e.g. pre
 ### INSTALLATION OPTIONS:
 The easiest way to install is to use the included Automator Services to bring this functionality to IINA, and then use the AppleScript to automatically add keyboard shortcuts in System Preferences. Alternatively, there are also AppleScripts available that perform the same functions as the Automator Services, should you have a use for them.
 
-## Automator Services
-_These are Automator Services for macOS._
+## 1. Install the Automator Services
 
 **INSTRUCTIONS:**
 1. Copy the Automator scripts from [here](https://github.com/verbiate/Wadsworth-for-IINA/tree/master/01%20Automator%20scripts) into the user's Library > Services folder (~/Library/Services)
@@ -19,7 +18,7 @@ _These are Automator Services for macOS._
 **KNOWN ISSUES:**
 * In order to jump to a new point on the timeline, IINA requires that the mouse cursor moves over the playback window to make the playhead visible. This script works around this by moving the mouse cursor over the window for a split second. If a user is moving their mouse while triggering the shortcut, it's possible for the mouse to miss the window. This will cause a spike in CPU usage until the mouse cursor enters the playback window.
 
-## Create Keyboard Shortcuts
+## 2. Create Keyboard Shortcuts
 _This is an AppleScript which creates keyboard shortcuts on macOS. This is not required—you can choose to create your own keyboard shortcuts, or none at all (?), but this creates them for you automatically._
 
 **INSTRUCTIONS:**
