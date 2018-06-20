@@ -5,8 +5,8 @@
 
 On YouTube, pressing 0-9 will jump you to a percentage of the timeline (e.g. pressing 3 will jump to 30% of the way through the video). In an effort to recreate this functionality, this is a set of scripts that enable jumping to a specific percentage location of the timeline in the [IINA video player for macOS](https://github.com/lhc70000/iina). You can use other tools (like System Preferences or Alfred) to assign keyboard shortcuts to each script and thereby replicate this functionality. An AppleScript is also included to create these shortcuts for you in System Preferences.
 
-### INSTALLATION OPTIONS:
-The easiest way to install is to use the included Automator Services to bring this functionality to IINA, and then use the AppleScript to automatically add keyboard shortcuts in System Preferences. Alternatively, there are also AppleScripts available that perform the same functions as the Automator Services, should you have a use for them.
+### INSTALLATION STEPS:
+The easiest way to install is to use the included Automator Services to bring this functionality to IINA, and then use the keyboard shortcut AppleScript to automatically add keyboard shortcuts in System Preferences. Alternatively, there are also AppleScripts available that perform the same functions as the Automator Services, should you have a use for them.
 
 ## 1. Install the Automator Services
 
@@ -19,7 +19,7 @@ The easiest way to install is to use the included Automator Services to bring th
 * In order to jump to a new point on the timeline, IINA requires that the mouse cursor moves over the playback window to make the playhead visible. This script works around this by moving the mouse cursor over the window for a split second. If a user is moving their mouse while triggering the shortcut, it's possible for the mouse to miss the window. This will cause a spike in CPU usage until the mouse cursor enters the playback window.
 
 ## 2. Create Keyboard Shortcuts
-_This is an AppleScript which creates keyboard shortcuts on macOS. This is not required—you can choose to create your own keyboard shortcuts, or none at all (?), but this creates them for you automatically._
+_This is an AppleScript which creates keyboard shortcuts. This is not required—you can choose to create your own keyboard shortcuts, or none at all (?), but this creates them for you automatically._
 
 **INSTRUCTIONS:**
 1. Run the Create Keyboard Shortcuts AppleScript
