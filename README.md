@@ -1,3 +1,6 @@
+# UPDATE
+### This has been deprecated, as this functionality [is possible natively in IINA](https://twitter.com/lhc70000/status/1010360204158894081) (which offers several improvements over this approach). This repository is archived for reference and learning purposes, only.
+
 # Wadsworth for IINA 
 ### Jump around the timeline using keyboard shortcuts
 
